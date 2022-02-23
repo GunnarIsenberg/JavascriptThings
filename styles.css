@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+}
+
+.container {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container .btn {
+  text-align: center;
+}
+
+table {
+  width: 100%;
+  align-items: center;
+  text-align: center;
+  border: 1px solid black;
+}
+
+td {
+  border: 1px solid black;
+  width: 25%;
+}
+
+.addTitleBtn {
+  margin-top: 150px;
+  padding: 8px;
+  border-radius: 25px;
+  border: none;
+  color: black;
+  background-color: paleturquoise;
+}
+
+.addTitleBtn:hover {
+  transform: scale(1.2);
+}
